@@ -12,18 +12,39 @@
   <body>
 
     <header> <!--Site Logo-->
+      SITE LOGO
     </header>
 
-    <nav>
-    </nav>
-
     <div>
+      <div id="intro">
+        <h1>tabShare</h1>
+        <p id="description">The easiest way to keep tab on the credits and debts you have with your friends.</p>
+      </div>
+
+      <div> <!-- Login Form -->
+        <form action="/action_page.php">
+          <label for="uname">Username</label>
+          <input type="text" id="uname" name="username" placeholder="Username...">
+
+          <label for="pwd">Password</label>
+          <input type="text" id="pwd" name="password" placeholder="Password..">
+        
+          <input type="submit" value="Login">
+        </form>
+      </div>
+
+      <div> <!-- New User Form -->
+        <form action="/action_page.php">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Email...">
+          <input type="submit" value="Sign Up">
+        </form>
+      </div>
+
     </div>
 
-
     <footer>
+      Copyright tabShare 2017
     </footer>
-    
   </body>
-  
 </html>
